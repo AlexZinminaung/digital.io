@@ -1,0 +1,47 @@
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+article hr {
+    width: 50%;
+    height: 0.2rem;
+    border: none;
+    background-color: rgb(76, 71, 71);
+    margin: 0.5rem auto;
+
+}
+
+article form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+article input {
+    padding: .4rem;
+    border: none;
+    background-color: rgba(181, 176, 170, 0.623);
+
+}
+
+.Search-Btn {
+    width: 200px;
+    padding: 0.4rem;
+    border: none;
+    background-color: pink;
+    
+
+}

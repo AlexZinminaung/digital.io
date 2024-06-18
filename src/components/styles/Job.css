@@ -1,0 +1,92 @@
+.container-job {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 380px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-top-left-radius: 25%;
+
+}
+
+.container-job img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom-right-radius: 25%;
+}
+
+
+.container-job button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    transition: all 0.4s;
+}
+
+.container-job button:hover {
+    background-color: #f0b1b1;
+}
+
+.container-job span {
+    margin-left: .8rem;
+}
+
+
+/* extra large screen */
+
+@media screen and (max-width: 1200px) {
+    .container-job {
+        width: 300px;
+        
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container-job {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container-job {
+        width: 200px;
+    }
+
+    .container-job span {
+        font-size: 0.8rem;
+        margin-left: 0.2rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .container-job {
+        margin: auto;
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+    .container-job {
+        margin: 0.5rem auto;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .container-job {
+        margin: 0.5rem auto;
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .container-job {
+        margin: 0.5rem auto;
+        width: 300px;
+    }
+}

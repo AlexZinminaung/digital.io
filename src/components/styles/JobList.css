@@ -1,0 +1,23 @@
+.container-JobList {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 20px;
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    .container-JobList {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container-JobList {
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+    
+}
